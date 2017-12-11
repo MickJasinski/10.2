@@ -1,3 +1,4 @@
+
 // ============ change span style ============ \\
 
 var span = $("span");
@@ -11,12 +12,12 @@ var span = $("span");
 $("span:even").css('color', 'red');
 
 
-// =============== add botton =============== \\
+// =============== add button =============== \\
 
 var paragraphs = $('p');
 paragraphs.each(function(index, element) {
-    var button = ' <button class="btn" data-tmp="' + index + '">Click me</button>'
-    $(element).append(button)
+    var button = ' <button class="btn" data-tmp="' + index + '">Click me</button>';
+    $(element).append(button);
 });
 
 
